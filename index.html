@@ -10,5 +10,24 @@
 </head>
 
 <body>
-  <header class=""
+  <header>
+    <h1>Weather Dashboard</h1>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <aside>
+        <h2>Search for a City:</h2> 
+        <form id="search-form" class="form">
+          <input type="text" id="search-input" class="weather search">
+          <button>Search</button>
+        </form>
+      </aside>
+    </div>
+  </div>
+
+  <main id="today" class="forecast">
+    <section id="5-day" class="forecast"></section>
+  </main>
+  <script src="script.js"></script>
 </body>
