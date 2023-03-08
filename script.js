@@ -26,6 +26,9 @@ function renderWeatherToday(city, weather) {
   var humidityEl = document.createElement("p");
 }
 
+renderWeatherToday();
+
+
 
 
 $("#today").text(dayjs().format("dddd, MMMM D, YYYY"));
